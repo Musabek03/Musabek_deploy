@@ -1,0 +1,16 @@
+.venv/
+
+.git/
+
+.env
+
+\_\_pycache\_\_/
+
+\*.pyc
+
+db.sqlite3
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
