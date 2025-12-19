@@ -20,8 +20,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost",
     "http://127.0.0.1",
-    "http://localhost:8888",
-    "http://127.0.0.1:8888",
+    "http://localhost:8001",
+    "http://127.0.0.1:8001",
 ]
 
 
