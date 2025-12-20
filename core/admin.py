@@ -5,7 +5,7 @@ from .models import Product,Category
 
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
-   pass
+   list_display = ('name', 'description')
 
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
